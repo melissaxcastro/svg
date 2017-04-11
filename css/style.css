@@ -1,0 +1,103 @@
+
+@keyframes move {
+  from {transform: translateX(-400px);}
+  to {transform: translateX(1300px);}
+   0% { opacity: 0; }
+  10% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#cloud1 {
+  top: 240px;
+  z-index: 200;
+  animation: move 30s linear;
+  animation-iteration-count:infinite;
+}
+
+#cloud2 {
+  top: 240px;
+  z-index: 300;
+  animation: move 35s linear;
+  animation-iteration-count:infinite;
+}
+
+#cloud3 {
+  top: 500px;
+  z-index: 100;
+  /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
+  animation: move 25s linear;
+  animation-iteration-count:infinite;
+}
+
+#cloud4 {
+  top: 240px;
+  z-index: 400;
+  animation: move 40s linear;
+  animation-iteration-count:infinite;
+}
+
+
+
+
+
+@keyframes hideshow {
+  0% { opacity: 0; }
+  10% { opacity: 0; }
+  30% { opacity: 1; }
+  100% { opacity: 1; }
+} 
+
+#h {
+  animation: hideshow 8s ease;
+}
+
+#e {
+  animation: hideshow 8s ease;
+}
+
+#l {
+  animation: hideshow 8s ease;
+}
+
+#l_1_ {
+  animation: hideshow 8s ease;
+}
+
+#_x30_ {
+  animation: hideshow 8s ease;
+}
+
+
+@keyframes popup {
+  0% {
+    transform: translateY(650px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.script {
+  transform: translateY(0px);
+  animation: popup 8s ease;
+}
+
+
+
+.planePath {
+  stroke: #D9DADA;
+  stroke-width: .01%;
+  stroke-width: .01%;
+  stroke-dasharray: 1% 2%;
+  stroke-linecap: round;
+  fill: none;
+}
+
+
+
+
