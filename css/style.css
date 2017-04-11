@@ -18,7 +18,7 @@
 #cloud2 {
   top: 240px;
   z-index: 300;
-  animation: move 20s linear;
+  animation: move 35s linear;
   animation-iteration-count:infinite;
 }
 
