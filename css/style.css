@@ -10,7 +10,7 @@
 
 #cloud1 {
   top: 240px;
-  z-index: 200;
+  z-index: 600;
   animation: move 30s linear;
   animation-iteration-count:infinite;
 }
